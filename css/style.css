@@ -1,0 +1,241 @@
+:root{
+  --color: rgb(82, 167, 224);
+  --color-services: rgb(247,251,254);
+}
+.nav-icon{
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+}
+.header-start{
+  border: none;
+  outline: none;
+  background-color: var(--color)!important;
+}
+@media only screen and (max-width: 992px){
+  .header-desc{
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px){
+  .header-title{
+    font-size: 20pxQ;
+  }
+  .header-desc{
+    font-size: 15px !important;
+  }
+}
+.intro-hr::before {
+  content: "";
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  transform: translateX(-14px)!important;
+  transform: translateY(1px)!important;
+  margin: 0 auto;
+  background-color:  rgb(43, 160, 238);
+}
+.intro-hr{
+  position: relative;
+  width: 90px!important;
+  margin-bottom: 0;
+}
+.intro-bla {
+  font-size: 15px;
+  width: 100%;
+}
+.characterestic-icon{
+  width: 25px;
+  height: 25px;
+  fill: var(--color);
+}
+
+.about-us-item{
+  position: relative;
+  font-size: 15px;
+}
+.about-us-item-icon{
+  width: 15px;
+  height: 15px;
+  fill: var(--color);
+}
+.function-image{
+  width: 40px;
+  height: 40px;
+  fill: var(--color);
+}
+.progress{
+  padding-left: 0!important;
+  padding-right: 0!important;
+  height: 10px;
+}
+.progress_labels{
+  font-size: 12px!important;
+}
+.progress-bar{
+  background-color: var(--color)!important;
+}
+.statistic-icon-container{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color);
+  position: relative;
+}
+.statistic-icon{
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.statistic-icon-group
+,.statistic-icon-headphones{
+  left: 10px;
+}
+.statistic-title{
+  font-size: 12px;
+}
+.services{
+  background-color: var(--color-services);
+}
+.service{
+  width: 49% !important;
+}
+@media only screen and (max-width: 992px){
+  .service{
+    width: 100%!important; 
+  }
+}
+.service-icon{
+  width: 35px;
+  height: 35px;
+  fill: var(--color);
+}
+.pills-choice{
+  font-size: 11px;
+}
+.pills-choice.active{
+  background-color: var(--color)!important;
+}
+.pills-choicer{
+background-color: var(--color)!important;
+}
+.portfolio{
+  width: 32%!important;
+}
+@media only screen and (max-width: 992px){
+  .portfolio{
+  width: 49%!important;}
+}
+@media only screen and (max-width: 768px){
+  .portfolio{
+  width: 100%!important;}
+}
+.testimonial{
+  width: 30%!important;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 992px){
+  .testimonial{
+  width: 49%!important;}
+}
+@media only screen and (max-width: 768px){
+  .testimonial{
+  width: 100%!important;}
+}
+.testimonial-image-container{
+  height: 100px;
+  width: 100px;
+}
+.testimonial-image{
+border-radius: 50%;
+}
+.container-testimonials{
+  background-color: var(--color-services);
+}
+.members-item{
+  width: 32%!important;
+}
+.member-photo{
+  border-radius: 50%;
+}
+.member-icon{
+  width: 15px;
+  height: 15px;
+  fill: grey;
+}
+.member-role{
+  font-size: 10px;
+}
+.member-name{
+  margin-bottom: 0;
+}
+.member-position{
+  font-size: 14px!important;
+}
+.member-quote{
+  font-size: 13px!important;
+  color: grey!important;
+}
+@media only screen and (max-width: 992px){
+  .members-item{
+  width: 49%!important;}
+}
+@media only screen and (max-width: 768px){
+  .members-item{
+  width: 100%!important;}
+}
+.contact-options{
+  width: 75%!important;
+  max-width: 850px;
+}
+.contact-icon{
+  width: 25px;
+  height: 25px;
+  fill:rgb(86,166,225);
+  position: absolute;
+  top: 7px;
+  left:  10px;
+}
+.contact-icon-container{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgb(234, 245, 251);
+}
+.option-title{
+  margin-bottom: 7px!important;
+}
+.option-details{
+  font-size: 14px!important;
+}
+.text-contact-footer{
+  font-size: 15px!important;
+}
+.useful-icon{
+  width: 15px!important;
+  height: 15px!important;
+  fill:rgb(43, 160, 238);
+}
+.useful-link{
+  padding: 0!important;
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
+.newslet{
+  padding: 0!important;
+}
+.submit-footer{
+  background-color: rgb(43, 160, 238)!important;
+  border: none;
+  color: white;
+}
+.icon-footer{
+  width: 15px;
+  margin-right: 10px;
+  height: 15px;
+}
+@
